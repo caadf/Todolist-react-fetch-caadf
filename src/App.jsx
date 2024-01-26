@@ -14,6 +14,10 @@ function TodoItem({ label, delete_todo }) {
     );
 }
 
+
+
+
+
 const App = () => {
     const [todos, setTodos] = useState([]);
     const [todoInput, setTodoInput] = useState("");
