@@ -157,10 +157,10 @@ const App = () => {
                     />)}
 
 
-                <small>{todos.length} Que haceres restantes</small>
+                <small>{todos.length} Deberes restantes</small>
                 <small>{todos.length == 0 ? ", agregue una tarea" : ""}</small>
                 <div className="row justify-content-end">
-                    <button type="button" className="btn btn-danger col-2" onClick={() => borrarTareas()}>Borrar Todas las Tareas</button>
+                    <button type="button" className="boton col-2" onClick={() => borrarTareas()}>Borrar todas las tareas</button>
                 </div>
 
 

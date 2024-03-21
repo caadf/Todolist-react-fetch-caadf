@@ -6,8 +6,9 @@
     align-items: center;
     gap: 0.5rem;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 30px;
     border-bottom: 2px solid;
+    margin-top: 30px;
 }
 
 
@@ -16,9 +17,15 @@ span.todo-text {
 }
 .deletetrash {
     margin-left: auto;
-    color: red;
+    color: grey;
     display: none;
 }
 .todo-item:hover .deletetrash{
     display: block;
+}
+
+.boton {
+    background-color: aquamarine;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
