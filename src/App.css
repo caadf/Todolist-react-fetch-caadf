@@ -20,7 +20,7 @@ span.todo-text {
     color: grey;
     display: none;
 }
-.todo-item:hover .deletetrash{
+.deletetrash{
     display: block;
 }
 
