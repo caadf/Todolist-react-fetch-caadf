@@ -30,7 +30,7 @@ const App = () => {
         try {
             console.log("creando usuario")
             const raw = JSON.stringify([])
-            const url = `https://playground.4geeks.com/apis/fake/todos/user/CatalinaArroyo`;
+            const url = `https://playground.4geeks.com/todo/users/CatalinaArroyo`;
             const options = {
                 method: 'POST',
                 body: raw,
@@ -61,7 +61,8 @@ const App = () => {
         borrarTarea();
     }
     const obtenerTareas = () => {
-        fetch("https://playground.4geeks.com/apis/fake/todos/user/CatalinaArroyo")
+            const url = "https://playground.4geeks.com/todo/users/CatalinaArroyo";
+            fetch("")
             .then((response) => {
                 console.log(response)
                 return response.json()
