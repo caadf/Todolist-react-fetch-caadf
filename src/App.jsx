@@ -81,7 +81,7 @@ const App = () => {
     const actualizarTarea = async (todos) => {
         try {
             const raw = JSON.stringify(todos) // no detecta la variable de todoInput
-            const url = `https://playground.4geeks.com/apis/fake/todos/user/CatalinaArroyo`;
+            const url = `https://playground.4geeks.com/todo/users/CatalinaArroyo`;
             const options = {
                 method: 'PUT',
                 body: raw,
@@ -100,7 +100,7 @@ const App = () => {
     }
     const borrarTarea = async () => {
         try {
-            const url = `https://playground.4geeks.com/apis/fake/todos/user/CatalinaArroyo`;
+            const url = `https://playground.4geeks.com/todo/users/CatalinaArroyo`;
             const options = {
                 method: 'DELETE',
 
